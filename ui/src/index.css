@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  font-family: sofia-pro, sans-serif;
+    font-style: normal;
+}
+
+:root{
+  /* For Framer motion */
+  --black: #000000;
+    --ash-black: #222;
+    --white: #fafafa;
+    --sky: #00ccff;
+    --green: #22dddd;
+    --blue: #1300ff;
+    --dusk: #6600ff;
+    --purple: #9900ff;
+    --pink: #ff0066;
+    --red: #fe0222;
+    --orange: #fd7702;
+    --yellow: #ffbb00;
+  
+    --background: var(--white);
+    --accent: var(--black);
+
+
+    /* For Loader */
+  --hue: 223;
+  --bg: hsl(var(--hue), 10%, 90%);
+  --fg: hsl(var(--hue), 10%, 10%);
+  font-size: calc(16px + (24 - 16) * (100vw - 320px) / (1280 - 320));
+
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  background-color: var(--background);
+  color: var(--white);
+  font-family: Arial, sans-serif;
+
+}
+
